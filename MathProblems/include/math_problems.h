@@ -25,4 +25,11 @@ int gcd(int a, int b);
  */
 unsigned long long lcm(int a, int b);
 
+/**
+ * @brief Находит наибольшее простое число, меньшее заданного предела.
+ * @param limit Верхняя граница (ищем простые числа < limit)
+ * @return Наибольшее простое число < limit, или 0 если такого нет (limit <= 2)
+ */
+int largestPrimeBelow(int limit);
+
 }  // namespace MathProblems
