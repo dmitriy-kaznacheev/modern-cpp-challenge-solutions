@@ -14,6 +14,7 @@ FetchContent_MakeAvailable(googletest)
 # Создаем исполняемый файл для тестов
 add_executable(challenge_tests
   main.cpp
+  MathProblems/problem_001_sum_multiples_test.cpp
 )
 
 # Линкуем с библиотеками GoogleTest
