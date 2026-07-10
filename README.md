@@ -3,7 +3,7 @@
 [![C++](https://img.shields.io/badge/C++-17-blue.svg)](https://en.cppreference.com/w/cpp/17)
 [![CMake](https://img.shields.io/badge/CMake-3.24+-green.svg)](https://cmake.org/)
 [![GoogleTest](https://img.shields.io/badge/GoogleTest-1.10+-red.svg)](https://github.com/google/googletest)
-[![Progress](https://img.shields.io/badge/Прогресс-2%25-orange.svg)](INDEX.md)
+[![Progress](https://img.shields.io/badge/Прогресс-3%25-orange.svg)](INDEX.md)
 [![CI](https://github.com/Dmitriy-Kaznacheev/modern-cpp-challenge-solutions/actions/workflows/ci.yml/badge.svg)](https://github.com/Dmitriy-Kaznacheev/modern-cpp-challenge-solutions/actions/workflows/ci.yml)
 
 > Мои решения задач из книги **"The Modern C++ Challenge"** Мариуса Бансила
@@ -22,7 +22,7 @@
 
 | Раздел | Описание | Решено | Прогресс |
 |--------|----------|--------|----------|
-| [MathProblems](MathProblems/) | Математические задачи | 2/14 | ▇░░░░░░░░░ 14% |
+| [MathProblems](MathProblems/) | Математические задачи | 3/14 | ▇▇░░░░░░░░ 21% |
 | [LanguageFeatures](LanguageFeatures/) | Особенности языка C++ | 0/8 | ░░░░░░░░░░ 0% |
 | [StringsRegex](StringsRegex/) | Строки и регулярные выражения | 0/9 | ░░░░░░░░░░ 0% |
 | [StreamsFilesystem](StreamsFilesystem/) | Потоки и файловая система | 0/7| ░░░░░░░░░░ 0% |
@@ -34,7 +34,7 @@
 | [ArchivesImagesDatabases](ArchivesImagesDatabases/) | Архивы, изображения, БД | 0/9 | ░░░░░░░░░░ 0% |
 | [Cryptography](Cryptography/) | Криптография | 0/7 | ░░░░░░░░░░ 0% |
 | [NetworkingServices](NetworkingServices/) | Сеть и веб-сервисы | 0/6 | ░░░░░░░░░░ 0% |
-| **Всего** | | **2/100** | ░░░░░░░░░░ 2% |
+| **Всего** | | **3/100** | ░░░░░░░░░░ 3% |
 
 **Общий прогресс:** 2 из 100 задач ✅
 
@@ -57,7 +57,7 @@
 |---|--------|--------|------|
 | 1 | Сумма натуральных чисел, кратных 3 и 5 | ✅ | [test](tests/MathProblems/problem_001_sum_multiples_test.cpp) |
 | 2 | Наибольший общий делитель (НОД)        | ✅ | [test](tests/MathProblems/problem_002_gcd_test.cpp) |
-| 3 |  | ⬜ | - |
+| 3 | Наименьшее общее кратное (НОК)         | ✅ | [test](tests/MathProblems/problem_003_lcm_test.cpp)  |
 | 4 |  | ⬜ | - |
 | 5 |  | ⬜ | - |
 | 6 |  | ⬜ | - |

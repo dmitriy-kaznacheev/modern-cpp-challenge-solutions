@@ -59,4 +59,38 @@ int gcd(int a, int b) {
   return static_cast<int>(aa);
 }
 
+/**
+ * Задача 3: Наименьшее общее кратное (НОК)
+ *
+ * Вычисляет наименьшее общее кратное двух целых чисел.
+ *
+ * Алгоритм: Используется формула: lcm(a,b) = |a| / gcd(a,b) * |b|
+ * Сложность: O(log(min(|a|,|b|))) по времени (за счёт gcd), O(1) по памяти
+ *
+ * Важно: возвращаемый тип unsigned long long, чтобы избежать переполнения
+ * при умножении больших чисел. Сначала выполняется деление на gcd,
+ * затем умножение, что минимизирует риск переполнения.
+ *
+ * @param a Первое целое число
+ * @param b Второе целое число
+ * @return НОК(a, b) — всегда неотрицательное число (0 если a==0 или b==0)
+ *
+ * @example
+ * auto result = lcm(4, 6);  // result == 12
+ */
+unsigned long long lcm(int a, int b) {
+  if ((a == 0) || (b == 0)) {
+    return 0;
+  }
+
+  long long aa = std::abs(static_cast<long long>(a));
+  long long bb = std::abs(static_cast<long long>(b));
+
+  int g = gcd(static_cast<int>(aa), static_cast<int>(bb));
+
+  // Деление первым, чтобы избежать переполнения
+  unsigned long long result = (aa / g) * bb;
+  return result;
+}
+
 }  // namespace MathProblems

@@ -17,4 +17,12 @@ unsigned long long sumMultiplesOf3And5(unsigned int limit);
  */
 int gcd(int a, int b);
 
+/**
+ * @brief Вычисляет наименьшее общее кратное (НОК) двух целых чисел.
+ * @param a Первое целое число
+ * @param b Второе целое число
+ * @return НОК(a, b) — всегда неотрицательное число.
+ */
+unsigned long long lcm(int a, int b);
+
 }  // namespace MathProblems
