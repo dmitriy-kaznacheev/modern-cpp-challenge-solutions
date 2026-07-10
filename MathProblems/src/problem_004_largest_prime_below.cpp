@@ -1,29 +1,7 @@
 #include "math_problems.h"
+#include "prime_utils.h"
 
 namespace MathProblems {
-
-namespace detail {
-
-static bool isPrime(int n) {
-  if (n < 2) {
-    return false;
-  }
-  if (n == 2) {
-    return true;
-  }
-  if (n % 2 == 0) {
-    return false;
-  }
-
-  for (int i = 3; i * i <= n; i += 2) {
-    if (n % i == 0) {
-      return false;
-    }
-  }
-  return true;
-}
-
-}  // namespace detail
 
 /**
  * Задача 4: Наибольшее простое число меньше заданного предела
@@ -45,7 +23,7 @@ int largestPrimeBelow(int limit) {
   // Работаем с unsigned для безопасного перебора вниз
   unsigned int lim = static_cast<unsigned int>(limit);
   for (unsigned int candidate = limit - 1; candidate >= 2; --candidate) {
-    if (detail::isPrime(static_cast<int>(candidate))) {
+    if (isPrime(static_cast<int>(candidate))) {
       return static_cast<int>(candidate);
     }
   }
