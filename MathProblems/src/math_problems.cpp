@@ -1,5 +1,8 @@
 #include "math_problems.h"
 
+#include <cmath>
+#include <utility>
+
 namespace MathProblems {
 
 /**
@@ -27,6 +30,33 @@ unsigned long long sumMultiplesOf3And5(unsigned int limit) {
   }
 
   return sum;
+}
+
+/**
+ * Задача 2: Наибольший общий делитель (НОД)
+ *
+ * Реализация алгоритма Евклида для нахождения НОД двух чисел.
+ *
+ * Алгоритм: Алгоритм Евклида
+ * Сложность: O(log(min(a,b))) по времени, O(1) по памяти
+ *
+ * @param a Первое целое число
+ * @param b Второе целое число
+ * @return НОД(a, b) — всегда неотрицательное число
+ *
+ * @example
+ * int result = gcd(54, 24);  // result == 6
+ */
+int gcd(int a, int b) {
+  // Защита от INT_MIN: приводим к long long, берем abs, затем в unsigned
+  unsigned int aa = static_cast<unsigned int>(std::abs(static_cast<long long>(a)));
+  unsigned int bb = static_cast<unsigned int>(std::abs(static_cast<long long>(b)));
+
+  while (bb != 0) {
+    aa = std::exchange(bb, aa % bb);
+  }
+
+  return static_cast<int>(aa);
 }
 
 }  // namespace MathProblems

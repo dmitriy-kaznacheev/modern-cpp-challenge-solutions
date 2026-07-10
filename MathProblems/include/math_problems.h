@@ -9,4 +9,12 @@ namespace MathProblems {
  */
 unsigned long long sumMultiplesOf3And5(unsigned int limit);
 
+/**
+ * @brief Вычисляет наибольший общий делитель (НОД) двух целых чисел
+ * @param a Первое целое число
+ * @param b Второе целое число
+ * @return НОД(a, b) — всегда неотрицательное число
+ */
+int gcd(int a, int b);
+
 }  // namespace MathProblems

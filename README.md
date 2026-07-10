@@ -3,9 +3,8 @@
 [![C++](https://img.shields.io/badge/C++-17-blue.svg)](https://en.cppreference.com/w/cpp/17)
 [![CMake](https://img.shields.io/badge/CMake-3.24+-green.svg)](https://cmake.org/)
 [![GoogleTest](https://img.shields.io/badge/GoogleTest-1.10+-red.svg)](https://github.com/google/googletest)
-[![Progress](https://img.shields.io/badge/Прогресс-0%25-orange.svg)](INDEX.md)
+[![Progress](https://img.shields.io/badge/Прогресс-2%25-orange.svg)](INDEX.md)
 [![CI](https://github.com/Dmitriy-Kaznacheev/modern-cpp-challenge-solutions/actions/workflows/ci.yml/badge.svg)](https://github.com/Dmitriy-Kaznacheev/modern-cpp-challenge-solutions/actions/workflows/ci.yml)
-[![Code Formatting](https://github.com/Dmitriy-Kaznacheev/modern-cpp-challenge-solutions/actions/workflows/format.yml/badge.svg)](https://github.com/Dmitriy-Kaznacheev/modern-cpp-challenge-solutions/actions/workflows/format.yml)
 
 > Мои решения задач из книги **"The Modern C++ Challenge"** Мариуса Бансила
 
@@ -21,23 +20,23 @@
 
 Репозиторий организован по тематическим разделам, соответствующим главам книги:
 
-| Раздел | Описание | Задач | Решено | Прогресс |
-|--------|----------|-------|--------|----------|
-| [MathProblems](MathProblems/) | Математические задачи | 14 | 1 | ▇░░░░░░░░░ 7% |
-| [LanguageFeatures](LanguageFeatures/) | Особенности языка C++ | 8 | 0 | ░░░░░░░░░░ 0% |
-| [StringsRegex](StringsRegex/) | Строки и регулярные выражения | 9 | 0 | ░░░░░░░░░░ 0% |
-| [StreamsFilesystem](StreamsFilesystem/) | Потоки и файловая система | 7 | 0 | ░░░░░░░░░░ 0% |
-| [DateTime](DateTime/) | Дата и время | 6 | 0 | ░░░░░░░░░░ 0% |
-| [AlgorithmsDataStructures](AlgorithmsDataStructures/) | Алгоритмы и структуры данных | 16 | 0 | ░░░░░░░░░░ 0% |
-| [Concurrency](Concurrency/) | Многопоточность | 6 | 0 | ░░░░░░░░░░ 0% |
-| [DesignPatterns](DesignPatterns/) | Паттерны проектирования | 6 | 0 | ░░░░░░░░░░ 0% |
-| [Serialization](Serialization/) | Сериализация данных | 6 | 0 | ░░░░░░░░░░ 0% |
-| [ArchivesImagesDatabases](ArchivesImagesDatabases/) | Архивы, изображения, БД | 9 | 0 | ░░░░░░░░░░ 0% |
-| [Cryptography](Cryptography/) | Криптография | 7 | 0 | ░░░░░░░░░░ 0% |
-| [NetworkingServices](NetworkingServices/) | Сеть и веб-сервисы | 6 | 0 | ░░░░░░░░░░ 0% |
-| **Всего** | | **100** | **1** | ░░░░░░░░░░ 1% |
+| Раздел | Описание | Решено | Прогресс |
+|--------|----------|--------|----------|
+| [MathProblems](MathProblems/) | Математические задачи | 2/14 | ▇░░░░░░░░░ 14% |
+| [LanguageFeatures](LanguageFeatures/) | Особенности языка C++ | 0/8 | ░░░░░░░░░░ 0% |
+| [StringsRegex](StringsRegex/) | Строки и регулярные выражения | 0/9 | ░░░░░░░░░░ 0% |
+| [StreamsFilesystem](StreamsFilesystem/) | Потоки и файловая система | 0/7| ░░░░░░░░░░ 0% |
+| [DateTime](DateTime/) | Дата и время | 0/6| ░░░░░░░░░░ 0% |
+| [AlgorithmsDataStructures](AlgorithmsDataStructures/) | Алгоритмы и структуры данных | 0/16 | ░░░░░░░░░░ 0% |
+| [Concurrency](Concurrency/) | Многопоточность | 0/6 | ░░░░░░░░░░ 0% |
+| [DesignPatterns](DesignPatterns/) | Паттерны проектирования | 0/6 | ░░░░░░░░░░ 0% |
+| [Serialization](Serialization/) | Сериализация данных | 0/6 | ░░░░░░░░░░ 0% |
+| [ArchivesImagesDatabases](ArchivesImagesDatabases/) | Архивы, изображения, БД | 0/9 | ░░░░░░░░░░ 0% |
+| [Cryptography](Cryptography/) | Криптография | 0/7 | ░░░░░░░░░░ 0% |
+| [NetworkingServices](NetworkingServices/) | Сеть и веб-сервисы | 0/6 | ░░░░░░░░░░ 0% |
+| **Всего** | | **2/100** | ░░░░░░░░░░ 2% |
 
-**Общий прогресс:** 1 из 100 задач ✅
+**Общий прогресс:** 2 из 100 задач ✅
 
 # 📋 Индекс решений
 
@@ -57,7 +56,7 @@
 | № | Задача | Статус | Тест |
 |---|--------|--------|------|
 | 1 | Сумма натуральных чисел, кратных 3 и 5 | ✅ | [test](tests/MathProblems/problem_001_sum_multiples_test.cpp) |
-| 2 |  | ⬜ | - |
+| 2 | Наибольший общий делитель (НОД)        | ✅ | [test](tests/MathProblems/problem_002_gcd_test.cpp) |
 | 3 |  | ⬜ | - |
 | 4 |  | ⬜ | - |
 | 5 |  | ⬜ | - |
