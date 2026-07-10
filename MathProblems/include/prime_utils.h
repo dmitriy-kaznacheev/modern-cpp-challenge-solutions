@@ -1,5 +1,7 @@
 #pragma once
 
+#include <vector>
+
 namespace MathProblems {
 
 /**
@@ -8,5 +10,12 @@ namespace MathProblems {
  * @return true если число простое, иначе false
  */
 bool isPrime(int n);
+
+/**
+ * @brief Возвращает все простые числа меньше заданного предела.
+ * @param limit Верхняя граница (ищем простые числа < limit)
+ * @return Вектор простых чисел в порядке возрастания
+ */
+std::vector<int> sieveOfEratosthenes(int limit);
 
 }  // namespace MathProblems
