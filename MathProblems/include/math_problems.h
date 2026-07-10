@@ -1,5 +1,7 @@
 #pragma once
 
+#include <vector>
+
 namespace MathProblems {
 
 /**
@@ -31,5 +33,12 @@ unsigned long long lcm(int a, int b);
  * @return Наибольшее простое число < limit, или 0 если такого нет (limit <= 2)
  */
 int largestPrimeBelow(int limit);
+
+/**
+ * @brief Находит все пары простых чисел (p, p+6), где p < limit.
+ * @param limit Верхняя граница для p (p < limit)
+ * @return Вектор пар (p, p+6), где оба числа простые и p+6 < limit
+ */
+std::vector<std::pair<int, int>> primePairsDifferBy6(int limit);
 
 }  // namespace MathProblems

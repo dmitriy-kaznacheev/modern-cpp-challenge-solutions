@@ -3,7 +3,7 @@
 [![C++](https://img.shields.io/badge/C++-17-blue.svg)](https://en.cppreference.com/w/cpp/17)
 [![CMake](https://img.shields.io/badge/CMake-3.24+-green.svg)](https://cmake.org/)
 [![GoogleTest](https://img.shields.io/badge/GoogleTest-1.10+-red.svg)](https://github.com/google/googletest)
-[![Progress](https://img.shields.io/badge/Прогресс-4%25-orange.svg)](INDEX.md)
+[![Progress](https://img.shields.io/badge/Прогресс-5%25-orange.svg)](INDEX.md)
 [![CI](https://github.com/Dmitriy-Kaznacheev/modern-cpp-challenge-solutions/actions/workflows/ci.yml/badge.svg)](https://github.com/Dmitriy-Kaznacheev/modern-cpp-challenge-solutions/actions/workflows/ci.yml)
 
 > Мои решения задач из книги **"The Modern C++ Challenge"** Мариуса Бансила
@@ -22,7 +22,7 @@
 
 | Раздел | Описание | Решено | Прогресс |
 |--------|----------|--------|----------|
-| [MathProblems](MathProblems/) | Математические задачи | 4/14 | ▇▇░░░░░░░░ 29% |
+| [MathProblems](MathProblems/) | Математические задачи | 5/14 | ▇▇▇░░░░░░░ 36% |
 | [LanguageFeatures](LanguageFeatures/) | Особенности языка C++ | 0/8 | ░░░░░░░░░░ 0% |
 | [StringsRegex](StringsRegex/) | Строки и регулярные выражения | 0/9 | ░░░░░░░░░░ 0% |
 | [StreamsFilesystem](StreamsFilesystem/) | Потоки и файловая система | 0/7| ░░░░░░░░░░ 0% |
@@ -34,7 +34,7 @@
 | [ArchivesImagesDatabases](ArchivesImagesDatabases/) | Архивы, изображения, БД | 0/9 | ░░░░░░░░░░ 0% |
 | [Cryptography](Cryptography/) | Криптография | 0/7 | ░░░░░░░░░░ 0% |
 | [NetworkingServices](NetworkingServices/) | Сеть и веб-сервисы | 0/6 | ░░░░░░░░░░ 0% |
-| **Всего** | | **4/100** | ░░░░░░░░░░ 4% |
+| **Всего** | | **5/100** | ░░░░░░░░░░ 5% |
 
 # Индекс решений
 
@@ -57,7 +57,7 @@
 | 2 | Наибольший общий делитель (НОД)        | ✅ | [problem](MathProblems/src/problem_002_gcd.cpp)            | [test](tests/MathProblems/problem_002_gcd_test.cpp) |
 | 3 | Наименьшее общее кратное (НОК)         | ✅ | [problem](MathProblems/src/problem_003_lcm.cpp)            | [test](tests/MathProblems/problem_003_lcm_test.cpp) |
 | 4 | Наибольшее простое число меньше заданного | ✅ | [problem](MathProblems/src/problem_004_largest_prime_below.cpp) | [test](tests/MathProblems/problem_004_largest_prime_below_test.cpp) |
-| 5 |  | ⬜ | - | - |
+| 5 | Простые числа, отличающиеся на 6 | ✅ | [problem](MathProblems/src/problem_005_prime_pairs.cpp) | [test](tests/MathProblems/problem_005_prime_pairs_test.cpp) |
 | 6 |  | ⬜ | - | - |
 | 7 |  | ⬜ | - | - |
 | 8 |  | ⬜ | - | - |

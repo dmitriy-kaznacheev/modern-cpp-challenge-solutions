@@ -18,6 +18,7 @@ add_executable(challenge_tests
   MathProblems/problem_002_gcd_test.cpp
   MathProblems/problem_003_lcm_test.cpp
   MathProblems/problem_004_largest_prime_below_test.cpp
+  MathProblems/problem_005_prime_pairs_test.cpp
 )
 
 # Линкуем с библиотеками GoogleTest
