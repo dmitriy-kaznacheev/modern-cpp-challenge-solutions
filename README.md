@@ -3,7 +3,7 @@
 [![C++](https://img.shields.io/badge/C++-17-blue.svg)](https://en.cppreference.com/w/cpp/17)
 [![CMake](https://img.shields.io/badge/CMake-3.24+-green.svg)](https://cmake.org/)
 [![GoogleTest](https://img.shields.io/badge/GoogleTest-1.10+-red.svg)](https://github.com/google/googletest)
-[![Progress](https://img.shields.io/badge/Прогресс-6%25-orange.svg)](INDEX.md)
+[![Progress](https://img.shields.io/badge/Прогресс-7%25-orange.svg)](INDEX.md)
 [![CI](https://github.com/Dmitriy-Kaznacheev/modern-cpp-challenge-solutions/actions/workflows/ci.yml/badge.svg)](https://github.com/Dmitriy-Kaznacheev/modern-cpp-challenge-solutions/actions/workflows/ci.yml)
 
 > Мои решения задач из книги **"The Modern C++ Challenge"** Мариуса Бансила
@@ -22,7 +22,7 @@
 
 | Раздел | Описание | Решено | Прогресс |
 |--------|----------|--------|----------|
-| [MathProblems](MathProblems/) | Математические задачи | 6/14 | ▇▇▇▇░░░░░░ 43% |
+| [MathProblems](MathProblems/) | Математические задачи | 7/14 | ▇▇▇▇▇░░░░░ 50% |
 | [LanguageFeatures](LanguageFeatures/) | Особенности языка C++ | 0/8 | ░░░░░░░░░░ 0% |
 | [StringsRegex](StringsRegex/) | Строки и регулярные выражения | 0/9 | ░░░░░░░░░░ 0% |
 | [StreamsFilesystem](StreamsFilesystem/) | Потоки и файловая система | 0/7| ░░░░░░░░░░ 0% |
@@ -34,7 +34,7 @@
 | [ArchivesImagesDatabases](ArchivesImagesDatabases/) | Архивы, изображения, БД | 0/9 | ░░░░░░░░░░ 0% |
 | [Cryptography](Cryptography/) | Криптография | 0/7 | ░░░░░░░░░░ 0% |
 | [NetworkingServices](NetworkingServices/) | Сеть и веб-сервисы | 0/6 | ░░░░░░░░░░ 0% |
-| **Всего** | | **6/100** | ░░░░░░░░░░ 6% |
+| **Всего** | | **7/100** | ░░░░░░░░░░ 7% |
 
 # Индекс решений
 
@@ -68,7 +68,7 @@
 | 4 | Наибольшее простое число меньше заданного | ✅ | [problem](MathProblems/src/problem_004_largest_prime_below.cpp) | [test](tests/MathProblems/problem_004_largest_prime_below_test.cpp) |
 | 5 | Простые числа, отличающиеся на 6 | ✅ | [problem](MathProblems/src/problem_005_prime_pairs.cpp) | [test](tests/MathProblems/problem_005_prime_pairs_test.cpp) |
 | 6 | Избыточные числа | ✅ | [problem](MathProblems/src/problem_006_abundant_numbers.cpp) | [test](tests/MathProblems/problem_006_abundant_numbers_test.cpp) |
-| 7 |  | ⬜ | - | - |
+| 7 | Дружественные числа | ✅ | [problem](MathProblems/src/problem_007_amicable_numbers.cpp) | [test](tests/MathProblems/problem_007_amicable_numbers_test.cpp) |
 | 8 |  | ⬜ | - | - |
 | 9 |  | ⬜ | - | - |
 | 10 |  | ⬜ | - | - |

@@ -1,5 +1,6 @@
 #pragma once
 
+#include <utility>
 #include <vector>
 
 namespace MathProblems {
@@ -47,5 +48,12 @@ std::vector<std::pair<int, int>> primePairsDifferBy6(int limit);
  * @return Вектор избыточных чисел в порядке возрастания
  */
 std::vector<int> abundantNumbers(int limit);
+
+/**
+ * @brief Возвращает все пары дружественных чисел (a, b), где a < b < limit.
+ * @param limit Верхняя граница (числа < limit)
+ * @return Вектор пар (a, b), отсортированных по возрастанию a
+ */
+std::vector<std::pair<int, int>> amicableNumbers(int limit);
 
 }  // namespace MathProblems
