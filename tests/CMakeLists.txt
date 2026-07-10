@@ -15,11 +15,13 @@ FetchContent_MakeAvailable(googletest)
 add_executable(challenge_tests
   main.cpp
   MathProblems/prime_utils_test.cpp
+  MathProblems/math_utils_test.cpp
   MathProblems/problem_001_sum_multiples_test.cpp
   MathProblems/problem_002_gcd_test.cpp
   MathProblems/problem_003_lcm_test.cpp
   MathProblems/problem_004_largest_prime_below_test.cpp
   MathProblems/problem_005_prime_pairs_test.cpp
+  MathProblems/problem_006_abundant_numbers_test.cpp
 )
 
 # Линкуем с библиотеками GoogleTest

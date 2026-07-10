@@ -41,4 +41,11 @@ int largestPrimeBelow(int limit);
  */
 std::vector<std::pair<int, int>> primePairsDifferBy6(int limit);
 
+/**
+ * @brief Возвращает все избыточные числа (abundant numbers) меньше заданного предела.
+ * @param limit Верхняя граница (числа < limit)
+ * @return Вектор избыточных чисел в порядке возрастания
+ */
+std::vector<int> abundantNumbers(int limit);
+
 }  // namespace MathProblems

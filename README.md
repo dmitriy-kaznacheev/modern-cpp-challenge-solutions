@@ -3,7 +3,7 @@
 [![C++](https://img.shields.io/badge/C++-17-blue.svg)](https://en.cppreference.com/w/cpp/17)
 [![CMake](https://img.shields.io/badge/CMake-3.24+-green.svg)](https://cmake.org/)
 [![GoogleTest](https://img.shields.io/badge/GoogleTest-1.10+-red.svg)](https://github.com/google/googletest)
-[![Progress](https://img.shields.io/badge/Прогресс-5%25-orange.svg)](INDEX.md)
+[![Progress](https://img.shields.io/badge/Прогресс-6%25-orange.svg)](INDEX.md)
 [![CI](https://github.com/Dmitriy-Kaznacheev/modern-cpp-challenge-solutions/actions/workflows/ci.yml/badge.svg)](https://github.com/Dmitriy-Kaznacheev/modern-cpp-challenge-solutions/actions/workflows/ci.yml)
 
 > Мои решения задач из книги **"The Modern C++ Challenge"** Мариуса Бансила
@@ -22,7 +22,7 @@
 
 | Раздел | Описание | Решено | Прогресс |
 |--------|----------|--------|----------|
-| [MathProblems](MathProblems/) | Математические задачи | 5/14 | ▇▇▇░░░░░░░ 36% |
+| [MathProblems](MathProblems/) | Математические задачи | 6/14 | ▇▇▇▇░░░░░░ 43% |
 | [LanguageFeatures](LanguageFeatures/) | Особенности языка C++ | 0/8 | ░░░░░░░░░░ 0% |
 | [StringsRegex](StringsRegex/) | Строки и регулярные выражения | 0/9 | ░░░░░░░░░░ 0% |
 | [StreamsFilesystem](StreamsFilesystem/) | Потоки и файловая система | 0/7| ░░░░░░░░░░ 0% |
@@ -34,7 +34,7 @@
 | [ArchivesImagesDatabases](ArchivesImagesDatabases/) | Архивы, изображения, БД | 0/9 | ░░░░░░░░░░ 0% |
 | [Cryptography](Cryptography/) | Криптография | 0/7 | ░░░░░░░░░░ 0% |
 | [NetworkingServices](NetworkingServices/) | Сеть и веб-сервисы | 0/6 | ░░░░░░░░░░ 0% |
-| **Всего** | | **5/100** | ░░░░░░░░░░ 5% |
+| **Всего** | | **6/100** | ░░░░░░░░░░ 6% |
 
 # Индекс решений
 
@@ -51,9 +51,13 @@
 
 ## MathProblems (Математические задачи) — 14 задач
 
-Для работы с простыми числами используется общий модуль `prime_utils`, содержащий:
-- **`isPrime`** — проверяет, является ли число простым (используется в задачах №4 и №5).
-- **`sieveOfEratosthenes`** — возвращает все простые числа меньше `limit` (бонусная задача).
+Для решения задач этого раздела используются вспомогательные модули:
+#### 1. [`prime_utils.h`](MathProblems/include/prime_utils.h) — работа с простыми числами
+- `isPrime(int n)` — проверка простоты (задачи №4, №5);
+- `sieveOfEratosthenes(int limit)` — решето Эратосфена для генерации простых чисел (бонус).
+
+#### 2. [`math_utils.h`](MathProblems/include/math_utils.h) — работа с делителями чисел
+- `sumOfProperDivisors(int n)` — сумма собственных делителей (задачи №6, №7).
 
 
 | № | Задача | Статус | Решение | Тест |
@@ -63,7 +67,7 @@
 | 3 | Наименьшее общее кратное (НОК)         | ✅ | [problem](MathProblems/src/problem_003_lcm.cpp)            | [test](tests/MathProblems/problem_003_lcm_test.cpp) |
 | 4 | Наибольшее простое число меньше заданного | ✅ | [problem](MathProblems/src/problem_004_largest_prime_below.cpp) | [test](tests/MathProblems/problem_004_largest_prime_below_test.cpp) |
 | 5 | Простые числа, отличающиеся на 6 | ✅ | [problem](MathProblems/src/problem_005_prime_pairs.cpp) | [test](tests/MathProblems/problem_005_prime_pairs_test.cpp) |
-| 6 |  | ⬜ | - | - |
+| 6 | Избыточные числа | ✅ | [problem](MathProblems/src/problem_006_abundant_numbers.cpp) | [test](tests/MathProblems/problem_006_abundant_numbers_test.cpp) |
 | 7 |  | ⬜ | - | - |
 | 8 |  | ⬜ | - | - |
 | 9 |  | ⬜ | - | - |
@@ -271,7 +275,7 @@ ctest --output-on-failure
 ```
 
 ### Как использовать этот репозиторий
-- **Как справочник** — используйте INDEX.md для быстрого поиска нужного алгоритма
+- **Как справочник** — используйте раздел **[Индекс решений](#индекс-решений)** для быстрого поиска нужного алгоритма
 - **Для обучения** — смотрите код решений и тесты, чтобы понять подход
 - **Для практики** — попробуйте решить задачу сами, прежде чем смотреть решение
 - **Для улучшения** — если у вас есть лучшее решение, создайте Pull Request
