@@ -56,4 +56,11 @@ std::vector<int> abundantNumbers(int limit);
  */
 std::vector<std::pair<int, int>> amicableNumbers(int limit);
 
+/**
+ * @brief Возвращает все числа Армстронга (нарциссические числа) меньше заданного предела.
+ * @param limit Верхняя граница (числа < limit)
+ * @return Вектор чисел Армстронга в порядке возрастания
+ */
+std::vector<int> armstrongNumbers(int limit);
+
 }  // namespace MathProblems

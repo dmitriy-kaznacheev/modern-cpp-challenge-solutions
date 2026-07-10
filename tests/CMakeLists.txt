@@ -23,6 +23,7 @@ add_executable(challenge_tests
   MathProblems/problem_005_prime_pairs_test.cpp
   MathProblems/problem_006_abundant_numbers_test.cpp
   MathProblems/problem_007_amicable_numbers_test.cpp
+  MathProblems/problem_008_armstrong_numbers_test.cpp
 )
 
 # Линкуем с библиотеками GoogleTest
