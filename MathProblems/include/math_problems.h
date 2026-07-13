@@ -70,4 +70,18 @@ std::vector<int> armstrongNumbers(int limit);
  */
 std::vector<long long> primeFactors(long long n);
 
+/**
+ * @brief Преобразует бинарное число в код Грея.
+ * @param n Бинарное число (беззнаковое)
+ * @return Код Грея
+ */
+unsigned int toGrayCode(unsigned int n);
+
+/**
+ * @brief Преобразует код Грея обратно в бинарное число.
+ * @param g Код Грея (беззнаковое)
+ * @return Бинарное число
+ */
+unsigned int fromGrayCode(unsigned int g);
+
 }  // namespace MathProblems
