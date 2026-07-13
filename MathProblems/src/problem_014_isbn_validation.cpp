@@ -55,4 +55,43 @@ bool isValidISBN10(const std::string& isbn) {
   return (sum % 11 == 0);
 }
 
+/**
+ * БОНУС: Проверка ISBN-13
+ *
+ * Проверяет, является ли переданная строка корректным номером ISBN-13.
+ *
+ * Алгоритм:
+ * 1. Удаляем дефисы.
+ * 2. Проверяем длину (13).
+ * 3. Проверяем, что все символы — цифры.
+ * 4. Вычисляем контрольную сумму:
+ *    sum = d1 + 3*d2 + d3 + 3*d4 + ... + d13
+ *    (нечётные позиции ×1, чётные ×3)
+ * 5. Действительно, если sum % 10 == 0.
+ */
+bool isValidISBN13(const std::string& isbn) {
+  std::string clean = isbn;
+  clean.erase(std::remove(clean.begin(), clean.end(), '-'), clean.end());
+
+  if (clean.length() != 13) {
+    return false;
+  }
+
+  if (!std::all_of(clean.begin(), clean.end(), ::isdigit)) {
+    return false;
+  }
+
+  int sum = 0;
+  for (size_t i = 0; i < 13; ++i) {
+    int digit = clean[i] - '0';
+    if (i % 2 == 0) {
+      sum += digit;  // нечётная позиция (индекс 0,2,4,...)
+    } else {
+      sum += digit * 3;  // чётная позиция (индекс 1,3,5,...)
+    }
+  }
+
+  return sum % 10 == 0;
+}
+
 }  // namespace MathProblems
