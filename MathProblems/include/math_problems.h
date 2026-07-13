@@ -120,4 +120,11 @@ double calculatePi(int iterations);
  */
 double calculatePiMonteCarlo(int numPoints);
 
+/**
+ * @brief Проверяет, является ли строка действительным номером ISBN-10.
+ * @param isbn Строка с ISBN (может содержать дефисы)
+ * @return true если номер корректен, иначе false
+ */
+bool isValidISBN10(const std::string& isbn);
+
 }  // namespace MathProblems
