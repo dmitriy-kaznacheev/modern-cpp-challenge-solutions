@@ -92,4 +92,18 @@ unsigned int fromGrayCode(unsigned int g);
  */
 std::string toRoman(int n);
 
+/**
+ * @brief Находит длину последовательности Коллатца для заданного числа.
+ * @param n Начальное число (n >= 1)
+ * @return Длина последовательности (количество членов, включая начальное и 1)
+ */
+unsigned long long collatzSequenceLength(unsigned long long n);
+
+/**
+ * @brief Находит наибольшую длину последовательности Коллатца для чисел < limit.
+ * @param limit Верхняя граница (ищем числа < limit)
+ * @return Длина самой длинной последовательности
+ */
+unsigned long long maxCollatzSequenceLength(unsigned int limit);
+
 }  // namespace MathProblems
