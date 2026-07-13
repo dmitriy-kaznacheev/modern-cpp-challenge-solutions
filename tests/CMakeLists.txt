@@ -28,6 +28,7 @@ add_executable(challenge_tests
   MathProblems/problem_010_gray_code_test.cpp
   MathProblems/problem_011_to_roman_test.cpp
   MathProblems/problem_012_collatz_sequence_test.cpp
+  MathProblems/problem_013_calculate_pi_test.cpp
 )
 
 # Линкуем с библиотеками GoogleTest

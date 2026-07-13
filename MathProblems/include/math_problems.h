@@ -106,4 +106,11 @@ unsigned long long collatzSequenceLength(unsigned long long n);
  */
 unsigned long long maxCollatzSequenceLength(unsigned int limit);
 
+/**
+ * @brief Вычисляет приближённое значение числа π с помощью ряда Лейбница.
+ * @param iterations Количество членов ряда (iterations > 0)
+ * @return Приближённое значение π
+ */
+double calculatePi(int iterations);
+
 }  // namespace MathProblems
