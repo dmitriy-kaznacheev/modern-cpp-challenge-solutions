@@ -26,6 +26,7 @@ add_executable(challenge_tests
   MathProblems/problem_008_armstrong_numbers_test.cpp
   MathProblems/problem_009_prime_factors_test.cpp
   MathProblems/problem_010_gray_code_test.cpp
+  MathProblems/problem_011_to_roman_test.cpp
 )
 
 # Линкуем с библиотеками GoogleTest

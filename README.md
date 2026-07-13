@@ -3,7 +3,7 @@
 [![C++](https://img.shields.io/badge/C++-17-blue.svg)](https://en.cppreference.com/w/cpp/17)
 [![CMake](https://img.shields.io/badge/CMake-3.24+-green.svg)](https://cmake.org/)
 [![GoogleTest](https://img.shields.io/badge/GoogleTest-1.10+-red.svg)](https://github.com/google/googletest)
-[![Progress](https://img.shields.io/badge/Прогресс-10%25-orange.svg)](INDEX.md)
+[![Progress](https://img.shields.io/badge/Прогресс-11%25-orange.svg)](INDEX.md)
 [![CI](https://github.com/Dmitriy-Kaznacheev/modern-cpp-challenge-solutions/actions/workflows/ci.yml/badge.svg)](https://github.com/Dmitriy-Kaznacheev/modern-cpp-challenge-solutions/actions/workflows/ci.yml)
 
 > Мои решения задач из книги **"The Modern C++ Challenge"** Мариуса Бансила
@@ -22,7 +22,7 @@
 
 | Раздел | Описание | Решено | Прогресс |
 |--------|----------|--------|----------|
-| [MathProblems](MathProblems/) | Математические задачи | 10/14 | ▇▇▇▇▇▇▇░░░ 71% |
+| [MathProblems](MathProblems/) | Математические задачи | 11/14 | ▇▇▇▇▇▇▇░░░ 79% |
 | [LanguageFeatures](LanguageFeatures/) | Особенности языка C++ | 0/8 | ░░░░░░░░░░ 0% |
 | [StringsRegex](StringsRegex/) | Строки и регулярные выражения | 0/9 | ░░░░░░░░░░ 0% |
 | [StreamsFilesystem](StreamsFilesystem/) | Потоки и файловая система | 0/7| ░░░░░░░░░░ 0% |
@@ -34,7 +34,7 @@
 | [ArchivesImagesDatabases](ArchivesImagesDatabases/) | Архивы, изображения, БД | 0/9 | ░░░░░░░░░░ 0% |
 | [Cryptography](Cryptography/) | Криптография | 0/7 | ░░░░░░░░░░ 0% |
 | [NetworkingServices](NetworkingServices/) | Сеть и веб-сервисы | 0/6 | ░░░░░░░░░░ 0% |
-| **Всего** | | **10/100** | ░░░░░░░░░░ 10% |
+| **Всего** | | **11/100** | ░░░░░░░░░░ 11% |
 
 # Индекс решений
 
@@ -72,7 +72,7 @@
 | 8 | Числа Армстронга | ✅ | [problem](MathProblems/src/problem_008_armstrong_numbers.cpp) | [test](tests/MathProblems/problem_008_armstrong_numbers_test.cpp) |
 | 9 | Простые множители числа | ✅ | [problem](MathProblems/src/problem_009_prime_factors.cpp) | [test](tests/MathProblems/problem_009_prime_factors_test.cpp) |
 | 10 | Код Грея | ✅ | [problem](MathProblems/src/problem_010_gray_code.cpp) | [test](tests/MathProblems/problem_010_gray_code_test.cpp) |
-| 11 |  | ⬜ | - | - |
+| 11 | Преобразование десятичных чисел в римские | ✅ | [problem](MathProblems/src/problem_011_to_roman.cpp) | [test](tests/MathProblems/problem_011_to_roman_test.cpp) |
 | 12 |  | ⬜ | - | - |
 | 13 |  | ⬜ | - | - |
 | 14 |  | ⬜ | - | - |

@@ -1,5 +1,6 @@
 #pragma once
 
+#include <string>
 #include <utility>
 #include <vector>
 
@@ -83,5 +84,12 @@ unsigned int toGrayCode(unsigned int n);
  * @return Бинарное число
  */
 unsigned int fromGrayCode(unsigned int g);
+
+/**
+ * @brief Преобразует десятичное число (1..3999) в римскую строку.
+ * @param n Десятичное число (1 <= n <= 3999)
+ * @return Строка с римским представлением числа
+ */
+std::string toRoman(int n);
 
 }  // namespace MathProblems
