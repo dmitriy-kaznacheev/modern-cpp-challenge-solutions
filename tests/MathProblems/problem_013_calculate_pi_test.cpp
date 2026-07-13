@@ -25,3 +25,20 @@ TEST(CalculatePiTest, HandlesZeroAndNegative) {
   EXPECT_EQ(calculatePi(0), 0.0);
   EXPECT_EQ(calculatePi(-5), 0.0);
 }
+
+TEST(MonteCarloPiTest, HandlesSmallPoints) {
+  double pi = calculatePiMonteCarlo(1000);
+  // Для 1000 точек ожидаем точность ~0.1
+  EXPECT_NEAR(pi, M_PI, 0.1);
+}
+
+TEST(MonteCarloPiTest, HandlesMorePoints) {
+  double pi = calculatePiMonteCarlo(1000000);
+  // Для 1 млн точек ожидаем точность ~0.01
+  EXPECT_NEAR(pi, M_PI, 0.02);
+}
+
+TEST(MonteCarloPiTest, HandlesZeroAndNegative) {
+  EXPECT_EQ(calculatePiMonteCarlo(0), 0.0);
+  EXPECT_EQ(calculatePiMonteCarlo(-5), 0.0);
+}

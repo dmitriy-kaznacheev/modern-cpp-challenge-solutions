@@ -113,4 +113,11 @@ unsigned long long maxCollatzSequenceLength(unsigned int limit);
  */
 double calculatePi(int iterations);
 
+/**
+ * @brief Вычисляет приближённое значение π методом Монте-Карло.
+ * @param numPoints Количество случайных точек (чем больше, тем точнее)
+ * @return Приближённое значение π
+ */
+double calculatePiMonteCarlo(int numPoints);
+
 }  // namespace MathProblems
