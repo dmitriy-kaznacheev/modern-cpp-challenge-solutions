@@ -63,4 +63,11 @@ std::vector<std::pair<int, int>> amicableNumbers(int limit);
  */
 std::vector<int> armstrongNumbers(int limit);
 
+/**
+ * @brief Возвращает все простые множители числа в порядке возрастания.
+ * @param n Целое положительное число (n >= 2)
+ * @return Вектор простых множителей (с повторениями)
+ */
+std::vector<long long> primeFactors(long long n);
+
 }  // namespace MathProblems

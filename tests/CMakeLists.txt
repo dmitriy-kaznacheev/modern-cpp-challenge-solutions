@@ -24,6 +24,7 @@ add_executable(challenge_tests
   MathProblems/problem_006_abundant_numbers_test.cpp
   MathProblems/problem_007_amicable_numbers_test.cpp
   MathProblems/problem_008_armstrong_numbers_test.cpp
+  MathProblems/problem_009_prime_factors_test.cpp
 )
 
 # Линкуем с библиотеками GoogleTest

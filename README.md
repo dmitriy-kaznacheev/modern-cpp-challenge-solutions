@@ -3,7 +3,7 @@
 [![C++](https://img.shields.io/badge/C++-17-blue.svg)](https://en.cppreference.com/w/cpp/17)
 [![CMake](https://img.shields.io/badge/CMake-3.24+-green.svg)](https://cmake.org/)
 [![GoogleTest](https://img.shields.io/badge/GoogleTest-1.10+-red.svg)](https://github.com/google/googletest)
-[![Progress](https://img.shields.io/badge/Прогресс-8%25-orange.svg)](INDEX.md)
+[![Progress](https://img.shields.io/badge/Прогресс-9%25-orange.svg)](INDEX.md)
 [![CI](https://github.com/Dmitriy-Kaznacheev/modern-cpp-challenge-solutions/actions/workflows/ci.yml/badge.svg)](https://github.com/Dmitriy-Kaznacheev/modern-cpp-challenge-solutions/actions/workflows/ci.yml)
 
 > Мои решения задач из книги **"The Modern C++ Challenge"** Мариуса Бансила
@@ -22,7 +22,7 @@
 
 | Раздел | Описание | Решено | Прогресс |
 |--------|----------|--------|----------|
-| [MathProblems](MathProblems/) | Математические задачи | 8/14 | ▇▇▇▇▇░░░░░ 57% |
+| [MathProblems](MathProblems/) | Математические задачи | 9/14 | ▇▇▇▇▇▇░░░░ 64% |
 | [LanguageFeatures](LanguageFeatures/) | Особенности языка C++ | 0/8 | ░░░░░░░░░░ 0% |
 | [StringsRegex](StringsRegex/) | Строки и регулярные выражения | 0/9 | ░░░░░░░░░░ 0% |
 | [StreamsFilesystem](StreamsFilesystem/) | Потоки и файловая система | 0/7| ░░░░░░░░░░ 0% |
@@ -34,7 +34,7 @@
 | [ArchivesImagesDatabases](ArchivesImagesDatabases/) | Архивы, изображения, БД | 0/9 | ░░░░░░░░░░ 0% |
 | [Cryptography](Cryptography/) | Криптография | 0/7 | ░░░░░░░░░░ 0% |
 | [NetworkingServices](NetworkingServices/) | Сеть и веб-сервисы | 0/6 | ░░░░░░░░░░ 0% |
-| **Всего** | | **8/100** | ░░░░░░░░░░ 8% |
+| **Всего** | | **9/100** | ░░░░░░░░░░ 9% |
 
 # Индекс решений
 
@@ -70,7 +70,7 @@
 | 6 | Избыточные числа | ✅ | [problem](MathProblems/src/problem_006_abundant_numbers.cpp) | [test](tests/MathProblems/problem_006_abundant_numbers_test.cpp) |
 | 7 | Дружественные числа | ✅ | [problem](MathProblems/src/problem_007_amicable_numbers.cpp) | [test](tests/MathProblems/problem_007_amicable_numbers_test.cpp) |
 | 8 | Числа Армстронга | ✅ | [problem](MathProblems/src/problem_008_armstrong_numbers.cpp) | [test](tests/MathProblems/problem_008_armstrong_numbers_test.cpp) |
-| 9 |  | ⬜ | - | - |
+| 9 | Простые множители числа | ✅ | [problem](MathProblems/src/problem_009_prime_factors.cpp) | [test](tests/MathProblems/problem_009_prime_factors_test.cpp) |
 | 10 |  | ⬜ | - | - |
 | 11 |  | ⬜ | - | - |
 | 12 |  | ⬜ | - | - |
